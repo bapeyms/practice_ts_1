@@ -1,16 +1,28 @@
 {
-  "name": "practice_ts",
+  "name": "packagecoolnewpackage",
   "version": "1.0.0",
-  "description": "",
+  "description": "homework",
+  "keywords": [],
+  "homepage": "https://github.com/bapeyms/practice_ts_1#readme",
+  "bugs": {
+    "url": "https://github.com/bapeyms/practice_ts_1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bapeyms/practice_ts_1.git"
+  },
+  "license": "ISC",
+  "author": "Kateryna Serdiukova",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "npx tsx ./src/index.ts",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "undici-types": "^8.3.0"
+  },
   "devDependencies": {
     "@types/node": "^26.4.1",
     "tsx": "^4.23.13",
